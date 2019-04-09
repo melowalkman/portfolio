@@ -1,11 +1,31 @@
 html, body
 {
-  height: 100%;
-  width: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
-.fas
+
+.arrows
+{ 
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 80px;
+    margin: 0 auto;
+}
+
+.lo i
 {
-  margin-bottom: 50px;
+  padding: 6px;
+} 
+.arrows:hover
+{
+  background-color: #5a95f5;
+}
+.arrows:hover>.lo i
+{
+  color: #fff;
 }
 .navbar{
   background-color: #1c2331;
@@ -17,6 +37,10 @@ html, body
   z-index: 99 !important;
   padding-bottom: 150px;
 }
+#examples{
+  padding-top: 80px;
+}
+
 #intro{
   padding-top: 100px;  
 }
@@ -24,6 +48,11 @@ html, body
 {
   max-width: 450px;
   height: auto;
+}
+
+.container
+{
+  width: 100%;
 }
 
 .banner{
@@ -92,4 +121,3 @@ footer{
     text-align: center;
   }
 }
-
